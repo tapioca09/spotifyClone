@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Spotify</title>
+</head>
+<body>
+    <div class="page">
+        <nav>
+            <ul>
+                <li class="logo"><img src="logo.png" alt="Spotify"> Spotify</li>
+                <li><i class="fa-solid fa-house"></i> Home</li>
+                <li><i class="fa-solid fa-magnifying-glass"></i> Search</li>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="title"><h1>Our Top Picks For You</h1></div>
+            <div class="songBanner">
+                <ul>
+                    <li><img src="covers/1.jpg"><div><span class="songtitle">Song Name</span><span class="play">4:45</span><i id="0" class="fa-solid fa-circle-play" id="play"></i></div></li>
+                    <li><img src="covers/2.jpg"><div><span class="songtitle">Song Name</span><span class="play">4:45</span><i id="1" class="fa-solid fa-circle-play" id="play"></i></div></li>
+                    <li><img src="covers/3.jpg"><div><span class="songtitle">Song Name</span><span class="play">4:45</span><i id="2" class="fa-solid fa-circle-play" id="play"></i></div></li>
+                    <li><img src="covers/4.jpg"><div><span class="songtitle">Song Name</span><span class="play">4:45</span><i id="3" class="fa-solid fa-circle-play" id="play"></i></div></li>
+                    <li><img src="covers/5.jpg"><div><span class="songtitle">Song Name</span><span class="play">4:45</span><i id="4" class="fa-solid fa-circle-play" id="play"></i></div></li>
+                    <li><img src="covers/6.jpg"><div><span class="songtitle">Song Name</span><span class="play">4:45</span><i id="5" class="fa-solid fa-circle-play" id="play"></i></div></li>
+                    <li><img src="covers/7.jpg"><div><span class="songtitle">Song Name</span><span class="play">4:45</span><i id="6" class="fa-solid fa-circle-play" id="play"></i></div></li>
+                    <li><img src="covers/8.jpg" class="song8"><div><span class="songtitle">Song Name</span><span class="play">4:45</span><i id="7" class="fa-solid fa-circle-play" id="play"></i></div></li>
+                    <li><img src="covers/9.jpg"><div><span class="songtitle">Song Name</span><span class="play">4:45</span><i id="8" class="fa-solid fa-circle-play" id="play"></i></div></li>
+                    <li><img src="covers/10.jpg"><div><span class="songtitle">Song Name</span><span class="play">4:45</span><i id="9" class="fa-solid fa-circle-play" id="play"></i></div></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div id="progress">
+            <span class="timestamp"> 0:00</span>
+            <input type="range" name="range" id="progressBar" value="0" min="0" max="1000">
+            <span class="songDuration"> 0:00</span>
+        </div>
+        
+        <div class="playing"><img src="covers/1.jpg"><span>Song Name</span></div>
+        <div class="icons">
+            <i class="fa-solid fa-2x fa-backward-step" id="prev"></i>
+            <i class="fa-solid fa-2x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-2x fa-forward-step" id="next"></i>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/c7b26aecee.js" crossorigin="anonymous"></script>
+    <script src="sandbox.js"></script>
+</body>
+</html>
